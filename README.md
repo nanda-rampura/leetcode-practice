@@ -1,9 +1,23 @@
-# LeetCode Practice
+# LeetCode Practice (Python)
 
-Daily LeetCode practice using Python.
+This repository contains my LeetCode practice problems implemented in Python with clean structure and unit tests.
 
-Topics:
-- Arrays
-- Stack
-- Dynamic Programming
-- Graphs
+## 📂 Problems
+
+### Arrays & Hashing
+- Two Sum — `two_sum.py`
+- Valid Palindrome — `valid_palindrome.py`
+- Valid Parentheses — `valid_parentheses.py`
+
+### Sliding Window / Array
+- Best Time to Buy and Sell Stock — `best_time_to_buy_sell_stock.py`
+
+### Linked List
+- Merge Two Sorted Lists — `merge_linked_lists.py`
+
+### Trees
+- Invert Binary Tree — `invert_binary_tree/`
+
+---
+
+## Project Structure
