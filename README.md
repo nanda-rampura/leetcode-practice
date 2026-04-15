@@ -1,4 +1,8 @@
-# LeetCode Practice (Python)
+# LeetCode Practice
+
+![Python](https://img.shields.io/badge/python-3.9-blue.svg)
+![pytest](https://img.shields.io/badge/tests-pytest-green.svg)
+![status](https://img.shields.io/badge/status-in%20progress-yellow.svg)
 
 This repository contains my LeetCode practice problems implemented in Python with clean structure and unit tests.
 
