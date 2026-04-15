@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/python-3.9-blue.svg)
 ![pytest](https://img.shields.io/badge/tests-pytest-green.svg)
 ![status](https://img.shields.io/badge/status-in%20progress-yellow.svg)
+![Tests](https://github.com/<username>/leetcode-practice/actions/workflows/python-tests.yml/badge.svg)
 
 This repository contains my LeetCode practice problems implemented in Python with clean structure and unit tests.
 
