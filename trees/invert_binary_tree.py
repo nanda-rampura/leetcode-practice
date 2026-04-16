@@ -1,6 +1,5 @@
 from typing import Optional
 
-
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -10,6 +9,7 @@ class TreeNode:
 
 class InvertBinaryTree:
     def invert_tree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
+
         def dfs(node: Optional[TreeNode]):
             if not node:
                 return None

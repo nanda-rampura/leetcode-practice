@@ -12,7 +12,8 @@ This repository contains my LeetCode practice problems implemented in Python wit
 - Two Sum — `arrays/two_sum.py`
 - Valid Palindrome — `arrays/valid_palindrome.py`
 - Best Time to Buy and Sell Stock — `arrays/best_time_to_buy_sell_stock.py`
-
+- Valid Anagram - `arrays/valid_anagram.py`
+- Binary Search - `arrays/binary_search.py`
 ### Strings
 - Valid Parentheses — `strings/valid_parentheses.py`
 
@@ -29,7 +30,20 @@ leetcode-practice/
 ├── strings/
 ├── linked_list/
 ├── trees/
-│ └── invert_binary_tree/
+│
+├── tests/
+│   ├── test_binary_search.py
+│   ├── test_invert_binary_tree.py
+│   ├── test_valid_anagram.py
 │
 ├── requirements.txt
 └── README.md
+
+## 🧪 Testing
+
+All solutions are tested using `pytest`.
+
+### ▶ Run all tests
+
+```bash
+pytest -v

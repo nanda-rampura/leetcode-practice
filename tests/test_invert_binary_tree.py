@@ -1,5 +1,5 @@
 import pytest
-from invert_binary_tree.solution.invert_binary_tree import TreeNode, InvertBinaryTree
+from trees.invert_binary_tree import TreeNode, InvertBinaryTree
 from collections import deque
 
 
