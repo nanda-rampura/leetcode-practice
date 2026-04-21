@@ -38,6 +38,8 @@ leetcode-practice/
 │   ├── test_valid_anagram.py
     └── test_flood_fill.py
     └── test_insert_interval.py
+    └── test_ransom_note_constructor.py
+    └── test_reverse_linked_list.py
 │
 ├── requirements.txt
 └── README.md
