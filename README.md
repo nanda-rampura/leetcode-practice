@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- Total Problems: 19
-- Easy: 12
-- Medium: 7
+- Total Problems: 24
+- Easy: 14
+- Medium: 10
 - Hard: 0
 
 ## 🔥 Top Patterns
@@ -69,14 +69,19 @@ pip install -r requirements.txt
 ## Trees
 - Balanced Binary Tree — Easy — Tree / DFS (Postorder)
 - Binary Tree Level Order Traversal — Medium — BFS / Level Order Traversal
+- Invert Binary Tree — Easy — Tree / DFS (Recursive)
+- Lowest Common Ancestor of a BST — Medium — BST / Tree Traversal
+- Validate Binary Search Tree — Medium — BST / DFS (Range Validation)
 
 ## Graphs
+- Clone Graph — Medium — Graph / BFS / DFS (Graph Traversal)
 - Flood Fill — Easy — DFS / BFS (Graph Traversal)
 - 01 Matrix (Matrix Nearest Zero) — Medium — BFS / Multi-source
 - Rotting Oranges — Medium — BFS / Multi-source
 
 ## Linked List
 - Linked List Cycle — Easy — Two Pointers / Fast & Slow (Floyd’s Cycle Detection)
+- Merge Two Sorted Lists — Easy — Linked List / Two Pointers
 - Reverse Linked List — Easy — Linked List / In-place Reversal
 
 ## Binary Search

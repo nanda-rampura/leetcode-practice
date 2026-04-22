@@ -84,6 +84,24 @@ pytest -v
 # =========================================================
 # METADATA EXTRACTION
 # =========================================================
+def parse_metadata(doc):
+    data = {"problem": None, "difficulty": "Unknown", "pattern": "Unknown"}
+
+    for line in doc.splitlines():
+        line = line.strip()
+
+        if line.startswith("Problem:"):
+            data["problem"] = line.replace("Problem:", "").strip()
+
+        elif line.startswith("Difficulty:"):
+            data["difficulty"] = line.replace("Difficulty:", "").strip()
+
+        elif line.startswith("Pattern:"):
+            data["pattern"] = line.replace("Pattern:", "").strip()
+
+    return data
+
+
 def extract_metadata(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -91,24 +109,17 @@ def extract_metadata(file_path):
     except Exception:
         return None
 
+    # ✅ 1. Check module-level docstring FIRST
+    module_doc = ast.get_docstring(tree)
+    if module_doc:
+        return parse_metadata(module_doc)
+
+    # ✅ 2. Fallback: class-level docstring
     for node in ast.walk(tree):
         if isinstance(node, ast.ClassDef):
             doc = ast.get_docstring(node)
-            if not doc:
-                return None
-
-            data = {"problem": None, "difficulty": "Unknown", "pattern": "Unknown"}
-
-            for line in doc.splitlines():
-                line = line.strip()
-                if line.startswith("Problem:"):
-                    data["problem"] = line.replace("Problem:", "").strip()
-                elif line.startswith("Difficulty:"):
-                    data["difficulty"] = line.replace("Difficulty:", "").strip()
-                elif line.startswith("Pattern:"):
-                    data["pattern"] = line.replace("Pattern:", "").strip()
-
-            return data
+            if doc:
+                return parse_metadata(doc)
 
     return None
 
