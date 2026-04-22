@@ -1,4 +1,11 @@
+
 class QueueUsingTwoStacks:
+    """
+Problem: Implement Queue using Stacks
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/implement-queue-using-stacks/
+Pattern: Stack / Queue Simulation (Two Stacks)
+"""
 
     def __init__(self):
         self.stack1 = []

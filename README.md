@@ -1,4 +1,4 @@
-# LeetCode Practice
+# 🧠 LeetCode Practice
 
 ![Python](https://img.shields.io/badge/python-3.9-blue.svg)
 ![pytest](https://img.shields.io/badge/tests-pytest-green.svg)
@@ -6,49 +6,97 @@
 ![Tests](https://github.com/nanda-rampura/leetcode-practice/actions/workflows/python-tests.yml/badge.svg)
 
 This repository contains my LeetCode practice problems implemented in Python with clean structure and unit tests.
-## 📂 Problems (Organized by Topic)
 
-### Arrays
-- Two Sum — `arrays/two_sum.py`
-- Valid Palindrome — `arrays/valid_palindrome.py`
-- Best Time to Buy and Sell Stock — `arrays/best_time_to_buy_sell_stock.py`
-- Valid Anagram - `arrays/valid_anagram.py`
-- Binary Search - `arrays/binary_search.py`
-### Strings
-- Valid Parentheses — `strings/valid_parentheses.py`
+---
 
-### Linked List
-- Merge Two Sorted Lists — `linked_list/merge_linked_lists.py`
+## 🚀 Getting Started
 
-### Trees
-- Invert Binary Tree — `trees/invert_binary_tree/`
+### 1. Clone the repository
+```bash
+git clone https://github.com/nanda-rampura/leetcode-practice.git
+cd leetcode-practice
+```
 
-## Project Structure
-leetcode-practice/
-│
-├── arrays/
-├── strings/
-├── linked_list/
-├── trees/
-├── graphs/
-│ 
-├── tests/
-│   ├── test_binary_search.py
-│   ├── test_invert_binary_tree.py
-│   ├── test_valid_anagram.py
-    └── test_flood_fill.py
-    └── test_insert_interval.py
-    └── test_ransom_note_constructor.py
-    └── test_reverse_linked_list.py
-│
-├── requirements.txt
-└── README.md
+### 2. Create virtual environment
+```bash
+python -m venv venv
+```
+
+### 3. Activate virtual environment
+```bash
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate    # Windows
+```
+
+### 4. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📊 Summary
+
+- Total Problems: 19
+- Easy: 12
+- Medium: 7
+- Hard: 0
+
+## 🔥 Top Patterns
+
+- HashMap / Frequency Count (2)
+- BFS / Multi-source (2)
+- Greedy / One Pass (1)
+- Intervals / Merge Intervals (1)
+- Heap / Priority Queue (Top K Elements) (1)
+
+---
+
+## Arrays
+- Best Time to Buy and Sell Stock — Easy — Greedy / One Pass
+- Insert Interval — Medium — Intervals / Merge Intervals
+- K Closest Points to Origin — Medium — Heap / Priority Queue (Top K Elements)
+- 3Sum — Medium — Two Pointers / Sorting
+- Two Sum — Easy — HashMap / One Pass
+- Valid Anagram — Easy — HashMap / Frequency Count
+- Valid Palindrome — Easy — Two Pointers / String Traversal
+
+## Strings
+- Longest Substring Without Repeating Characters — Medium — Sliding Window / HashMap
+- Ransom Note — Easy — HashMap / Frequency Count
+- Valid Parentheses — Easy — Stack
+
+## Trees
+- Balanced Binary Tree — Easy — Tree / DFS (Postorder)
+- Binary Tree Level Order Traversal — Medium — BFS / Level Order Traversal
+
+## Graphs
+- Flood Fill — Easy — DFS / BFS (Graph Traversal)
+- 01 Matrix (Matrix Nearest Zero) — Medium — BFS / Multi-source
+- Rotting Oranges — Medium — BFS / Multi-source
+
+## Linked List
+- Linked List Cycle — Easy — Two Pointers / Fast & Slow (Floyd’s Cycle Detection)
+- Reverse Linked List — Easy — Linked List / In-place Reversal
+
+## Binary Search
+- Binary Search — Easy — Binary Search / Divide and Conquer
+
+## Queues
+- Implement Queue using Stacks — Easy — Stack / Queue Simulation (Two Stacks)
+
+
+
+---
 
 ## 🧪 Testing
 
-All solutions are tested using `pytest`.
-
-### ▶ Run all tests
+Run all tests:
 
 ```bash
 pytest -v
+```
+
+## 📌 Notes
+- All problems include metadata (Problem / Difficulty / Pattern)
+- README is auto-generated from source code

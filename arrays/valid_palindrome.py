@@ -2,9 +2,11 @@ import unittest
 
 class Solution:
     """
-    Provides a solution for identifying valid palindromes in strings 
-    containing mixed alphanumeric characters and symbols.
-    """
+Problem: Valid Palindrome
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/valid-palindrome/
+Pattern: Two Pointers / String Traversal
+"""
     def is_palindrome(self, s: str) -> bool:
         """
         Determines if a string is a palindrome using a two-pointer approach.

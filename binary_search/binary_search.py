@@ -1,7 +1,13 @@
 from typing import List
 
-
 class BinarySearch:
+    """
+Problem: Binary Search
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/binary-search/
+Pattern: Binary Search / Divide and Conquer
+"""
+
     def search(self, nums: List[int], target: int) -> int:
         st, end = 0, len(nums) - 1
 

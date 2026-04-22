@@ -1,10 +1,16 @@
-# Definition for singly-linked list.
+
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
 class Solution:
+    """
+Problem: Merge Two Sorted Lists
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/merge-two-sorted-lists/
+Pattern: Linked List / Two Pointers
+"""
     def mergeTwoLists(self, list1: ListNode, list2: ListNode) -> ListNode:
         p0 = ListNode(-1)  # Dummy node
         p1 = p0

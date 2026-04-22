@@ -1,6 +1,12 @@
 from collections import defaultdict
 
 class RansomNoteConstructor:
+    """
+Problem: Ransom Note
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/ransom-note/
+Pattern: HashMap / Frequency Count
+"""
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         #store the magazine in dictionary
         magazineMap = defaultdict(int)

@@ -8,6 +8,12 @@ class TreeNode:
 
 
 class InvertBinaryTree:
+    """
+Problem: Invert Binary Tree
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/invert-binary-tree/
+Pattern: Tree / DFS (Recursive)
+"""
     def invert_tree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
 
         def dfs(node: Optional[TreeNode]):

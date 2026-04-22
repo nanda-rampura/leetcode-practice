@@ -1,7 +1,12 @@
 from collections import defaultdict
 
-
 class ValidAnagram:
+    """
+Problem: Valid Anagram
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/valid-anagram/
+Pattern: HashMap / Frequency Count
+"""
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False

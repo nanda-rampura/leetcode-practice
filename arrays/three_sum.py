@@ -1,4 +1,11 @@
+
 class ThreeSumSolver:
+    """
+Problem: 3Sum
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/3sum/
+Pattern: Two Pointers / Sorting
+"""
     def threeSum(self, nums: list[int]) -> list[list[int]]:
         nums.sort() #O(nlongn)
         output = []

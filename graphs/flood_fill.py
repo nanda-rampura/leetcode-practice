@@ -1,6 +1,12 @@
 from typing import List
 
 class Flood_Fill:
+    """
+Problem: Flood Fill
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/flood-fill/
+Pattern: DFS / BFS (Graph Traversal)
+"""
     def floodFill(self, image: List[List[int]], sr: int, sc: int, color: int) -> List[List[int]]:
         
         if image[sr][sc] == color:

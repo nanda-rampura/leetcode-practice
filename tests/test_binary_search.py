@@ -1,4 +1,4 @@
-from arrays.binary_search import BinarySearch
+from binary_search.binary_search import BinarySearch
 
 def test_found():
     assert BinarySearch().search([-1,0,3,5,9,12], 9) == 4

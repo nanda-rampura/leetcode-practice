@@ -1,0 +1,188 @@
+import os
+import ast
+from collections import defaultdict, Counter
+
+# =========================================================
+# CONFIG
+# =========================================================
+BASE_DIR = "."
+FOLDERS = [
+    "arrays",
+    "strings",
+    "trees",
+    "graphs",
+    "linked_list",
+    "binary_search",
+    "queues",
+]
+
+OUTPUT_FILE = "README.md"
+
+# =========================================================
+# HEADER (with clone + setup instructions)
+# =========================================================
+HEADER = """# 🧠 LeetCode Practice
+
+![Python](https://img.shields.io/badge/python-3.9-blue.svg)
+![pytest](https://img.shields.io/badge/tests-pytest-green.svg)
+![status](https://img.shields.io/badge/status-in%20progress-yellow.svg)
+![Tests](https://github.com/nanda-rampura/leetcode-practice/actions/workflows/python-tests.yml/badge.svg)
+
+This repository contains my LeetCode practice problems implemented in Python with clean structure and unit tests.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/nanda-rampura/leetcode-practice.git
+cd leetcode-practice
+```
+
+### 2. Create virtual environment
+```bash
+python -m venv venv
+```
+
+### 3. Activate virtual environment
+```bash
+source venv/bin/activate   # Mac/Linux
+venv\\Scripts\\activate    # Windows
+```
+
+### 4. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+"""
+
+# =========================================================
+# FOOTER
+# =========================================================
+FOOTER = """
+
+---
+
+## 🧪 Testing
+
+Run all tests:
+
+```bash
+pytest -v
+```
+
+## 📌 Notes
+- All problems include metadata (Problem / Difficulty / Pattern)
+- README is auto-generated from source code
+"""
+
+
+# =========================================================
+# METADATA EXTRACTION
+# =========================================================
+def extract_metadata(file_path):
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            tree = ast.parse(f.read())
+    except Exception:
+        return None
+
+    for node in ast.walk(tree):
+        if isinstance(node, ast.ClassDef):
+            doc = ast.get_docstring(node)
+            if not doc:
+                return None
+
+            data = {"problem": None, "difficulty": "Unknown", "pattern": "Unknown"}
+
+            for line in doc.splitlines():
+                line = line.strip()
+                if line.startswith("Problem:"):
+                    data["problem"] = line.replace("Problem:", "").strip()
+                elif line.startswith("Difficulty:"):
+                    data["difficulty"] = line.replace("Difficulty:", "").strip()
+                elif line.startswith("Pattern:"):
+                    data["pattern"] = line.replace("Pattern:", "").strip()
+
+            return data
+
+    return None
+
+
+# =========================================================
+# COLLECT DATA
+# =========================================================
+def collect():
+    grouped = defaultdict(list)
+    difficulty = Counter()
+    pattern = Counter()
+    total = 0
+
+    for folder in FOLDERS:
+        path = os.path.join(BASE_DIR, folder)
+        if not os.path.exists(path):
+            continue
+
+        for file in sorted(os.listdir(path)):
+            if not file.endswith(".py"):
+                continue
+
+            meta = extract_metadata(os.path.join(path, file))
+            if meta and meta["problem"]:
+                grouped[folder].append(meta)
+                difficulty[meta["difficulty"]] += 1
+                pattern[meta["pattern"]] += 1
+                total += 1
+
+    return grouped, difficulty, pattern, total
+
+
+# =========================================================
+# BUILD README
+# =========================================================
+def build(grouped, difficulty, pattern, total):
+    body = ""
+
+    body += "## 📊 Summary\n\n"
+    body += f"- Total Problems: {total}\n"
+    body += f"- Easy: {difficulty['Easy']}\n"
+    body += f"- Medium: {difficulty['Medium']}\n"
+    body += f"- Hard: {difficulty['Hard']}\n\n"
+
+    body += "## 🔥 Top Patterns\n\n"
+    for p, c in pattern.most_common(5):
+        body += f"- {p} ({c})\n"
+
+    body += "\n---\n\n"
+
+    for folder in FOLDERS:
+        if folder not in grouped:
+            continue
+
+        body += f"## {folder.replace('_',' ').title()}\n"
+        for m in grouped[folder]:
+            body += f"- {m['problem']} — {m['difficulty']} — {m['pattern']}\n"
+        body += "\n"
+
+    return HEADER + body + FOOTER
+
+
+# =========================================================
+# MAIN
+# =========================================================
+def main():
+    grouped, difficulty, pattern, total = collect()
+    content = build(grouped, difficulty, pattern, total)
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write(content)
+
+    print(f"README generated → {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()

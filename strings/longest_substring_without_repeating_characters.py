@@ -1,4 +1,10 @@
 class LongestSubstringWithoutRepeatingCharacters:
+    """
+Problem: Longest Substring Without Repeating Characters
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+Pattern: Sliding Window / HashMap
+"""
     def lengthOfLongestSubstring(self, s: str) -> int:
         seen = dict()
         max_length = 0

@@ -1,7 +1,13 @@
 from typing import List
 
-
 class InsertInterval:
+    """
+Problem: Insert Interval
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/insert-interval/
+Pattern: Intervals / Merge Intervals
+"""
+
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         results = []
         # keep adding until the insert

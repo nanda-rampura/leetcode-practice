@@ -10,6 +10,12 @@ from trees.invert_binary_tree import TreeNode
 
 
 class BalancedBinaryTreeChecker:
+    """
+Problem: Balanced Binary Tree
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/balanced-binary-tree/
+Pattern: Tree / DFS (Postorder)
+"""
     def isBalanced(self, root: Optional[TreeNode]) -> bool:
         def recursive(node: Optional[TreeNode]) -> Tuple[bool, int]:
             if not node:

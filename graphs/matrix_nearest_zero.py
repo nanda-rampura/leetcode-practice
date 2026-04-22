@@ -1,8 +1,14 @@
 from collections import deque
 from typing import List
 
-
 class MatrixNearestZero:
+    """
+Problem: 01 Matrix (Matrix Nearest Zero)
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/01-matrix/
+Pattern: BFS / Multi-source
+"""
+
     def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
         queue = deque()
         rows = len(mat)

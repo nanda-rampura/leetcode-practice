@@ -1,19 +1,10 @@
-"""
-Problem: Valid Parentheses
-
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', 
-determine if the input string is valid.
-
-Rules:
-- Open brackets must be closed by the same type of brackets.
-- Open brackets must be closed in the correct order.
-
-Constraints:
-1 <= s.length <= 10^4
-s consists of parentheses only '()[]{}'.
-"""
-
 class Solution:
+    """
+Problem: Valid Parentheses
+Difficulty: Easy
+LeetCode: https://leetcode.com/problems/valid-parentheses/
+Pattern: Stack
+"""
     def isValid(self, s: str) -> bool:
         stack = []
 

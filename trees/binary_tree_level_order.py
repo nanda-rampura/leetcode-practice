@@ -10,6 +10,12 @@ from trees.lowest_common_ancestor_bst import TreeNode
 
 
 class BinaryTreeLevelOrder:
+    """
+Problem: Binary Tree Level Order Traversal
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/binary-tree-level-order-traversal/
+Pattern: BFS / Level Order Traversal
+"""
     def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         results = []
         if not root:

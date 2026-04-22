@@ -9,6 +9,12 @@ class TreeNode:
 
 
 class ValidateBinarySearchTree:
+    """
+Problem: Validate Binary Search Tree
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/validate-binary-search-tree/
+Pattern: BST / DFS (Range Validation)
+"""
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
 
         def recursive(node, min_val, max_val):

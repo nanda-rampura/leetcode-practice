@@ -1,8 +1,14 @@
 import heapq
 from typing import List
 
-
 class KClosestPoints:
+    """
+Problem: K Closest Points to Origin
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/k-closest-points-to-origin/
+Pattern: Heap / Priority Queue (Top K Elements)
+"""
+
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         pq = []
         i = 0

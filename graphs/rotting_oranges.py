@@ -1,8 +1,13 @@
 from collections import deque
 from typing import List
 
-
 class RottingOranges:
+    """
+Problem: Rotting Oranges
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/rotting-oranges/
+Pattern: BFS / Multi-source
+"""
     def orangesRotting(self, grid: List[List[int]]) -> int:
         rows, cols = len(grid), len(grid[0])
         queue = deque()
