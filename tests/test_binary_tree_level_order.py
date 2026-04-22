@@ -6,13 +6,13 @@ from trees.binary_tree_level_order import BinaryTreeLevelOrder, TreeNode
 class TestBinaryTreeLevelOrder:
 
     def build_tree(self):
-        """
-              1
-            /   \
-           2     3
-          / \     \
-         4   5     6
-        """
+        r"""
+      1
+    /   \
+   2     3
+  / \     \
+ 4   5     6
+"""
         root = TreeNode(1)
         root.left = TreeNode(2)
         root.right = TreeNode(3)
@@ -26,3 +26,4 @@ class TestBinaryTreeLevelOrder:
         result = BinaryTreeLevelOrder().levelOrder(root)
 
         assert result == [[1], [2, 3], [4, 5, 6]]
+    

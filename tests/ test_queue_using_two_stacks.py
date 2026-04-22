@@ -1,5 +1,5 @@
 import pytest
-from queue.queue_using_two_stacks import QueueUsingTwoStacks
+from queues.queue_using_two_stacks import QueueUsingTwoStacks
 
 
 class TestQueueUsingTwoStacks:

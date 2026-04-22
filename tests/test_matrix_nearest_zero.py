@@ -1,31 +1,32 @@
-from collections import deque
-from typing import List
+import pytest
+from graphs.matrix_nearest_zero import MatrixNearestZero
 
 
-class Solution:
-    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
-        queue = deque()
-        rows = len(mat)
-        cols = len(mat[0])
+class TestMatrixNearestZero:
 
-        for row in range(rows):
-            for col in range(cols):
-                if mat[row][col] == 0:
-                    queue.append((row,col))
-                else:
-                    mat[row][col] = -1
-                    
+    def test_example_1(self):
+        mat = [[0,0,0],[0,1,0],[0,0,0]]
+        expected = [[0,0,0],[0,1,0],[0,0,0]]
 
-        directions = [[-1,0],[1,0],[0,1],[0,-1]]
-        while queue:
-            r, c = queue.popleft()
+        assert MatrixNearestZero().updateMatrix(mat) == expected
 
-            for d in directions:
-                nr = r + d[0]
-                nc = c + d[1]
 
-                if 0 <= nr < rows and 0 <= nc < cols and mat[nr][nc] == -1:
-                    mat[nr][nc] = mat[r][c] + 1
-                    queue.append((nr,nc))
-    
-        return mat
+    def test_example_2(self):
+        mat = [[0,0,0],[0,1,0],[1,1,1]]
+        expected = [[0,0,0],[0,1,0],[1,2,1]]
+
+        assert MatrixNearestZero().updateMatrix(mat) == expected
+
+
+    def test_single_cell(self):
+        mat = [[0]]
+        expected = [[0]]
+
+        assert MatrixNearestZero().updateMatrix(mat) == expected
+
+
+    def test_line(self):
+        mat = [[1,0,1,1,0]]
+        expected = [[1,0,1,1,0]]
+
+        assert MatrixNearestZero().updateMatrix(mat) == expected
