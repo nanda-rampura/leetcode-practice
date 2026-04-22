@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- Total Problems: 24
+- Total Problems: 25
 - Easy: 14
-- Medium: 10
+- Medium: 11
 - Hard: 0
 
 ## 🔥 Top Patterns
@@ -47,13 +47,14 @@ pip install -r requirements.txt
 - HashMap / Frequency Count (2)
 - BFS / Multi-source (2)
 - Greedy / One Pass (1)
+- Stack / Expression Evaluation (1)
 - Intervals / Merge Intervals (1)
-- Heap / Priority Queue (Top K Elements) (1)
 
 ---
 
 ## Arrays
 - Best Time to Buy and Sell Stock — Easy — Greedy / One Pass
+- Evaluate Reverse Polish Notation — Medium — Stack / Expression Evaluation
 - Insert Interval — Medium — Intervals / Merge Intervals
 - K Closest Points to Origin — Medium — Heap / Priority Queue (Top K Elements)
 - 3Sum — Medium — Two Pointers / Sorting
