@@ -37,10 +37,10 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- Total Problems: 26
-- Easy: 14
-- Medium: 12
-- Hard: 0
+- **Total Problems:** 26
+- **Easy:** 14
+- **Medium:** 12
+- **Hard:** 0
 
 ## 🔥 Top Patterns
 
@@ -52,45 +52,52 @@ pip install -r requirements.txt
 
 ---
 
-## Arrays
-- Best Time to Buy and Sell Stock — Easy — Greedy / One Pass
-- Evaluate Reverse Polish Notation — Medium — Stack / Expression Evaluation
-- Insert Interval — Medium — Intervals / Merge Intervals
-- K Closest Points to Origin — Medium — Heap / Priority Queue (Top K Elements)
-- 3Sum — Medium — Two Pointers / Sorting
-- Two Sum — Easy — HashMap / One Pass
-- Valid Anagram — Easy — HashMap / Frequency Count
-- Valid Palindrome — Easy — Two Pointers / String Traversal
+## 🟢 Arrays
 
-## Strings
-- Longest Substring Without Repeating Characters — Medium — Sliding Window / HashMap
-- Ransom Note — Easy — HashMap / Frequency Count
-- Valid Parentheses — Easy — Stack
+- 🟢 🔗 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Greedy / One Pass
+- 🟢 🔗 [Two Sum](https://leetcode.com/problems/two-sum/) — HashMap / One Pass
+- 🟢 🔗 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — HashMap / Frequency Count
+- 🟢 🔗 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Two Pointers / String Traversal
+- 🟡 🔗 [3Sum](https://leetcode.com/problems/3sum/) — Two Pointers / Sorting
+- 🟡 🔗 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) — Stack / Expression Evaluation
+- 🟡 🔗 [Insert Interval](https://leetcode.com/problems/insert-interval/) — Intervals / Merge Intervals
+- 🟡 🔗 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Heap / Priority Queue (Top K Elements)
 
-## Trees
-- Balanced Binary Tree — Easy — Tree / DFS (Postorder)
-- Binary Tree Level Order Traversal — Medium — BFS / Level Order Traversal
-- Invert Binary Tree — Easy — Tree / DFS (Recursive)
-- Lowest Common Ancestor of a BST — Medium — BST / Tree Traversal
-- Validate Binary Search Tree — Medium — BST / DFS (Range Validation)
+## 🧵 Strings
 
-## Graphs
-- Clone Graph — Medium — Graph / BFS / DFS (Graph Traversal)
-- Course Schedule — Medium — Graph / Topological Sort (Kahn's Algorithm BFS)
-- Flood Fill — Easy — DFS / BFS (Graph Traversal)
-- 01 Matrix (Matrix Nearest Zero) — Medium — BFS / Multi-source
-- Rotting Oranges — Medium — BFS / Multi-source
+- 🟢 🔗 [Ransom Note](https://leetcode.com/problems/ransom-note/) — HashMap / Frequency Count
+- 🟢 🔗 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Stack
+- 🟡 🔗 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Sliding Window / HashMap
 
-## Linked List
-- Linked List Cycle — Easy — Two Pointers / Fast & Slow (Floyd’s Cycle Detection)
-- Merge Two Sorted Lists — Easy — Linked List / Two Pointers
-- Reverse Linked List — Easy — Linked List / In-place Reversal
+## 🌳 Trees
 
-## Binary Search
-- Binary Search — Easy — Binary Search / Divide and Conquer
+- 🟢 🔗 [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) — Tree / DFS (Postorder)
+- 🟢 🔗 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Tree / DFS (Recursive)
+- 🟡 🔗 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — BFS / Level Order Traversal
+- 🟡 🔗 [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) — BST / Tree Traversal
+- 🟡 🔗 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) — BST / DFS (Range Validation)
 
-## Queues
-- Implement Queue using Stacks — Easy — Stack / Queue Simulation (Two Stacks)
+## 🌐 Graphs
+
+- 🟢 🔗 [Flood Fill](https://leetcode.com/problems/flood-fill/) — DFS / BFS (Graph Traversal)
+- 🟡 🔗 [01 Matrix (Matrix Nearest Zero)](https://leetcode.com/problems/01-matrix/) — BFS / Multi-source
+- 🟡 🔗 [Clone Graph](https://leetcode.com/problems/clone-graph/) — Graph / BFS / DFS (Graph Traversal)
+- 🟡 🔗 [Course Schedule](https://leetcode.com/problems/course-schedule/) — Graph / Topological Sort (Kahn's Algorithm BFS)
+- 🟡 🔗 [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) — BFS / Multi-source
+
+## 🔗 Linked List
+
+- 🟢 🔗 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) — Two Pointers / Fast & Slow (Floyd’s Cycle Detection)
+- 🟢 🔗 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) — Linked List / Two Pointers
+- 🟢 🔗 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Linked List / In-place Reversal
+
+## 🔍 Binary Search
+
+- 🟢 🔗 [Binary Search](https://leetcode.com/problems/binary-search/) — Binary Search / Divide and Conquer
+
+## 📦 Queues
+
+- 🟢 🔗 [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack / Queue Simulation (Two Stacks)
 
 
 

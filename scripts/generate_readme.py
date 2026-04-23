@@ -85,7 +85,7 @@ pytest -v
 # METADATA EXTRACTION
 # =========================================================
 def parse_metadata(doc):
-    data = {"problem": None, "difficulty": "Unknown", "pattern": "Unknown"}
+    data = {"problem": None, "difficulty": "Unknown", "pattern": "Unknown", "link": None}
 
     for line in doc.splitlines():
         line = line.strip()
@@ -98,6 +98,9 @@ def parse_metadata(doc):
 
         elif line.startswith("Pattern:"):
             data["pattern"] = line.replace("Pattern:", "").strip()
+
+        elif line.startswith("LeetCode:"):   
+            data["link"] = line.replace("LeetCode:", "").strip()
 
     return data
 
@@ -158,25 +161,80 @@ def collect():
 def build(grouped, difficulty, pattern, total):
     body = ""
 
+    # =========================
+    # Summary
+    # =========================
     body += "## 📊 Summary\n\n"
-    body += f"- Total Problems: {total}\n"
-    body += f"- Easy: {difficulty['Easy']}\n"
-    body += f"- Medium: {difficulty['Medium']}\n"
-    body += f"- Hard: {difficulty['Hard']}\n\n"
+    body += f"- **Total Problems:** {total}\n"
+    body += f"- **Easy:** {difficulty['Easy']}\n"
+    body += f"- **Medium:** {difficulty['Medium']}\n"
+    body += f"- **Hard:** {difficulty['Hard']}\n\n"
 
+    # =========================
+    # Top Patterns
+    # =========================
     body += "## 🔥 Top Patterns\n\n"
     for p, c in pattern.most_common(5):
         body += f"- {p} ({c})\n"
 
     body += "\n---\n\n"
 
+    # =========================
+    # Folder Emoji Map
+    # =========================
+    EMOJI = {
+        "arrays": "🟢",
+        "strings": "🧵",
+        "trees": "🌳",
+        "graphs": "🌐",
+        "linked_list": "🔗",
+        "binary_search": "🔍",
+        "queues": "📦",
+    }
+
+    # =========================
+    # Difficulty Icons
+    # =========================
+    difficulty_icon = {
+        "Easy": "🟢",
+        "Medium": "🟡",
+        "Hard": "🔴",
+    }
+
+    # =========================
+    # Sections
+    # =========================
     for folder in FOLDERS:
         if folder not in grouped:
             continue
 
-        body += f"## {folder.replace('_',' ').title()}\n"
-        for m in grouped[folder]:
-            body += f"- {m['problem']} — {m['difficulty']} — {m['pattern']}\n"
+        emoji = EMOJI.get(folder, "📁")
+        title = folder.replace("_", " ").title()
+
+        body += f"## {emoji} {title}\n\n"
+
+        # sort by difficulty then name
+        sorted_items = sorted(
+            grouped[folder],
+            key=lambda x: (x["difficulty"], x["problem"])
+        )
+
+        for m in sorted_items:
+            icon = difficulty_icon.get(m["difficulty"], "⚪")
+
+            link = m.get("link")
+
+            if link:
+                body += (
+                    f"- {icon} 🔗 [{m['problem']}]({link}) — "
+                    f"{m['pattern']}\n"
+                )
+            else:
+                body += (
+                    f"- {icon} {m['problem']} — "
+                    f"{m['pattern']}\n"
+                )
+
         body += "\n"
 
     return HEADER + body + FOOTER
