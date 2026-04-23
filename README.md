@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 26
+- **Total Problems:** 28
 - **Easy:** 14
-- **Medium:** 12
+- **Medium:** 14
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -67,6 +67,7 @@ pip install -r requirements.txt
 
 - 🟢 🔗 [Ransom Note](https://leetcode.com/problems/ransom-note/) — HashMap / Frequency Count
 - 🟢 🔗 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Stack
+- 🟡 🔗 [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) — Trie / Prefix Tree / String Data Structure
 - 🟡 🔗 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Sliding Window / HashMap
 
 ## 🌳 Trees
@@ -83,6 +84,7 @@ pip install -r requirements.txt
 - 🟡 🔗 [01 Matrix (Matrix Nearest Zero)](https://leetcode.com/problems/01-matrix/) — BFS / Multi-source
 - 🟡 🔗 [Clone Graph](https://leetcode.com/problems/clone-graph/) — Graph / BFS / DFS (Graph Traversal)
 - 🟡 🔗 [Course Schedule](https://leetcode.com/problems/course-schedule/) — Graph / Topological Sort (Kahn's Algorithm BFS)
+- 🟡 🔗 [Number of Islands](https://leetcode.com/problems/number-of-islands/) — DFS / BFS (Graph Traversal / Flood Fill)
 - 🟡 🔗 [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) — BFS / Multi-source
 
 ## 🔗 Linked List
