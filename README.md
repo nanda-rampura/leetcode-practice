@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 28
+- **Total Problems:** 29
 - **Easy:** 14
-- **Medium:** 14
+- **Medium:** 15
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -62,6 +62,7 @@ pip install -r requirements.txt
 - 🟡 🔗 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) — Stack / Expression Evaluation
 - 🟡 🔗 [Insert Interval](https://leetcode.com/problems/insert-interval/) — Intervals / Merge Intervals
 - 🟡 🔗 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Heap / Priority Queue (Top K Elements)
+- 🟡 🔗 [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Sorting + Greedy / Interval Merging
 
 ## 🧵 Strings
 
