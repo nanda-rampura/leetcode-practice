@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- Total Problems: 25
+- Total Problems: 26
 - Easy: 14
-- Medium: 11
+- Medium: 12
 - Hard: 0
 
 ## 🔥 Top Patterns
@@ -76,6 +76,7 @@ pip install -r requirements.txt
 
 ## Graphs
 - Clone Graph — Medium — Graph / BFS / DFS (Graph Traversal)
+- Course Schedule — Medium — Graph / Topological Sort (Kahn's Algorithm BFS)
 - Flood Fill — Easy — DFS / BFS (Graph Traversal)
 - 01 Matrix (Matrix Nearest Zero) — Medium — BFS / Multi-source
 - Rotting Oranges — Medium — BFS / Multi-source
