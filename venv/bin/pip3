@@ -1,4 +1,4 @@
-#!/Users/nandarampura/Documents/leetcode-practice/venv/bin/python3.9
+#!/Users/nandarampura/Documents/leetcode-practice/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

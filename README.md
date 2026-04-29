@@ -37,18 +37,18 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 29
-- **Easy:** 14
-- **Medium:** 15
+- **Total Problems:** 33
+- **Easy:** 15
+- **Medium:** 18
 - **Hard:** 0
 
 ## 🔥 Top Patterns
 
 - HashMap / Frequency Count (2)
 - BFS / Multi-source (2)
-- Greedy / One Pass (1)
-- Stack / Expression Evaluation (1)
+- Prefix Sum / Suffix Product (1)
 - Intervals / Merge Intervals (1)
+- Heap / Priority Queue (Top K Elements) (1)
 
 ---
 
@@ -63,6 +63,7 @@ pip install -r requirements.txt
 - 🟡 🔗 [Insert Interval](https://leetcode.com/problems/insert-interval/) — Intervals / Merge Intervals
 - 🟡 🔗 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Heap / Priority Queue (Top K Elements)
 - 🟡 🔗 [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Sorting + Greedy / Interval Merging
+- 🟡 🔗 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Prefix Sum / Suffix Product
 
 ## 🧵 Strings
 
@@ -97,10 +98,16 @@ pip install -r requirements.txt
 ## 🔍 Binary Search
 
 - 🟢 🔗 [Binary Search](https://leetcode.com/problems/binary-search/) — Binary Search / Divide and Conquer
+- 🟢 🔗 [First Bad Version](https://leetcode.com/problems/first-bad-version/) — Binary Search / Boundary (First True)
+- 🟡 🔗 [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) — Binary Search / Rotated Array
 
 ## 📦 Queues
 
 - 🟢 🔗 [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) — Stack / Queue Simulation (Two Stacks)
+
+## 📁 Stacks
+
+- 🟡 🔗 [Min Stack](https://leetcode.com/problems/min-stack/) — Stack / Design
 
 
 

@@ -14,6 +14,7 @@ FOLDERS = [
     "linked_list",
     "binary_search",
     "queues",
+    "stacks"
 ]
 
 OUTPUT_FILE = "README.md"
@@ -141,16 +142,19 @@ def collect():
         if not os.path.exists(path):
             continue
 
-        for file in sorted(os.listdir(path)):
-            if not file.endswith(".py"):
-                continue
+        for root, _, files in os.walk(path):
+            for file in files:
+                if not file.endswith(".py"):
+                    continue
 
-            meta = extract_metadata(os.path.join(path, file))
-            if meta and meta["problem"]:
-                grouped[folder].append(meta)
-                difficulty[meta["difficulty"]] += 1
-                pattern[meta["pattern"]] += 1
-                total += 1
+                full_path = os.path.join(root, file)
+
+                meta = extract_metadata(full_path)
+                if meta and meta["problem"]:
+                    grouped[folder].append(meta)
+                    difficulty[meta["difficulty"]] += 1
+                    pattern[meta["pattern"]] += 1
+                    total += 1
 
     return grouped, difficulty, pattern, total
 
