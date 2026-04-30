@@ -37,8 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 34
-- **Easy:** 16
+- **Total Problems:** 35
+- **Easy:** 17
 - **Medium:** 18
 - **Hard:** 0
 
@@ -94,6 +94,7 @@ pip install -r requirements.txt
 
 - 🟢 🔗 [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) — Two Pointers / Fast & Slow (Floyd’s Cycle Detection)
 - 🟢 🔗 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) — Linked List / Two Pointers
+- 🟢 🔗 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) — Fast and Slow Pointers
 - 🟢 🔗 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Linked List / In-place Reversal
 
 ## 🔍 Binary Search
