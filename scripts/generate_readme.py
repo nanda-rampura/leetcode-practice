@@ -14,7 +14,8 @@ FOLDERS = [
     "linked_list",
     "binary_search",
     "queues",
-    "stacks"
+    "stacks",
+    "backtracking"
 ]
 
 OUTPUT_FILE = "README.md"

@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 35
+- **Total Problems:** 39
 - **Easy:** 17
-- **Medium:** 18
+- **Medium:** 22
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -78,6 +78,7 @@ pip install -r requirements.txt
 - 🟢 🔗 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Tree DFS / Postorder Traversal
 - 🟢 🔗 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Tree / DFS (Recursive)
 - 🟡 🔗 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — BFS / Level Order Traversal
+- 🟡 🔗 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Tree / BFS (Level Order)
 - 🟡 🔗 [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) — BST / Tree Traversal
 - 🟡 🔗 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) — BST / DFS (Range Validation)
 
@@ -110,6 +111,12 @@ pip install -r requirements.txt
 ## 📁 Stacks
 
 - 🟡 🔗 [Min Stack](https://leetcode.com/problems/min-stack/) — Stack / Design
+
+## 📁 Backtracking
+
+- 🟡 🔗 [Combination Sum](https://leetcode.com/problems/combination-sum/) — Backtracking (Combination / Reuse Allowed)
+- 🟡 🔗 [Permutations](https://leetcode.com/problems/permutations/) — Backtracking (Used Array)
+- 🟡 🔗 [Subsets](https://leetcode.com/problems/subsets/) — Backtracking (Start Index)
 
 
 
