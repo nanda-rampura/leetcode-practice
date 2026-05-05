@@ -1,11 +1,11 @@
 class LowestCommonAncestor:
     """
     Metadata:
-        Problem: Lowest Common Ancestor of a Binary Tree
-        Difficulty: Medium
-        LeetCode: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
-        Pattern: DFS / Post-order Traversal / Tree Recursion
-        Key Idea: Return target node upward; split point is LCA
+        Problem: Maximum Depth of Binary Tree
+        Difficulty: Easy
+        LeetCode: https://leetcode.com/problems/maximum-depth-of-binary-tree/
+        Pattern: DFS / BFS / Tree Traversal
+        Key Idea: Track depth while traversing tree; return maximum depth found
     """
     def lowestCommonAncestor(self, root, p, q):
         def dfs(node):
