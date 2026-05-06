@@ -37,8 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 42
-- **Easy:** 19
+- **Total Problems:** 43
+- **Easy:** 20
 - **Medium:** 23
 - **Hard:** 0
 
@@ -65,6 +65,7 @@ pip install -r requirements.txt
 - 🟡 🔗 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Heap / Priority Queue (Top K Elements)
 - 🟡 🔗 [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Sorting + Greedy / Interval Merging
 - 🟡 🔗 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Prefix Sum / Suffix Product
+- 🟡 🔗 [Sort Colors](https://leetcode.com/problems/sort-colors/) — Two Pointers / Dutch National Flag (3-way Partition)
 
 ## 🧵 Strings
 
@@ -78,11 +79,11 @@ pip install -r requirements.txt
 - 🟢 🔗 [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) — Tree / DFS (Postorder)
 - 🟢 🔗 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Tree DFS / Postorder Traversal
 - 🟢 🔗 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Tree / DFS (Recursive)
+- 🟢 🔗 [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — DFS / BFS / Tree Traversal
 - 🟢 Maximum Depth of Binary Tree — DFS Iterative (Stack)
 - 🟡 🔗 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — BFS / Level Order Traversal
 - 🟡 🔗 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Tree / BFS (Level Order)
 - 🟡 🔗 [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) — BST / Tree Traversal
-- 🟡 🔗 [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) — DFS / Post-order Traversal / Tree Recursion
 - 🟡 🔗 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) — BST / DFS (Range Validation)
 
 ## 🌐 Graphs
