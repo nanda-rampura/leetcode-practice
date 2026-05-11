@@ -37,8 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 44
-- **Easy:** 21
+- **Total Problems:** 45
+- **Easy:** 22
 - **Medium:** 23
 - **Hard:** 0
 
@@ -56,6 +56,7 @@ pip install -r requirements.txt
 
 - 🟢 🔗 [Add Binary Strings](https://leetcode.com/problems/add-binary/) — Two Pointers / Carry Simulation (String Traversal from Right to Left)
 - 🟢 🔗 [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) — Greedy / One Pass
+- 🟢 🔗 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) — Hash Set
 - 🟢 🔗 [Majority Element](https://leetcode.com/problems/majority-element/) — Boyer-Moore Voting Algorithm / Greedy
 - 🟢 🔗 [Two Sum](https://leetcode.com/problems/two-sum/) — HashMap / One Pass
 - 🟢 🔗 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — HashMap / Frequency Count
