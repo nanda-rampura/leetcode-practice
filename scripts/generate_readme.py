@@ -15,7 +15,8 @@ FOLDERS = [
     "binary_search",
     "queues",
     "stacks",
-    "backtracking"
+    "backtracking",
+    "sliding_window"
 ]
 
 OUTPUT_FILE = "README.md"

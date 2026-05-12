@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 48
+- **Total Problems:** 49
 - **Easy:** 22
-- **Medium:** 26
+- **Medium:** 27
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -126,6 +126,10 @@ pip install -r requirements.txt
 - 🟡 🔗 [Permutations](https://leetcode.com/problems/permutations/) — Backtracking (Used Array)
 - 🟡 🔗 [Subsets](https://leetcode.com/problems/subsets/) — Backtracking (Start Index)
 - 🟡 🔗 [Word Search](https://leetcode.com/problems/word-search/) — DFS / Backtracking / Grid Traversal
+
+## 📁 Sliding Window
+
+- 🟡 🔗 [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) — Sliding Window / Hash Map
 
 
 
