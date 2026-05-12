@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 46
+- **Total Problems:** 47
 - **Easy:** 22
-- **Medium:** 24
+- **Medium:** 25
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -62,6 +62,7 @@ pip install -r requirements.txt
 - 🟢 🔗 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — HashMap / Frequency Count
 - 🟢 🔗 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Two Pointers / String Traversal
 - 🟡 🔗 [3Sum](https://leetcode.com/problems/3sum/) — Two Pointers / Sorting
+- 🟡 🔗 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) — Two Pointers / Greedy
 - 🟡 🔗 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) — Stack / Expression Evaluation
 - 🟡 🔗 [Insert Interval](https://leetcode.com/problems/insert-interval/) — Intervals / Merge Intervals
 - 🟡 🔗 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Heap / Priority Queue (Top K Elements)
