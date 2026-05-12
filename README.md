@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 47
+- **Total Problems:** 48
 - **Easy:** 22
-- **Medium:** 25
+- **Medium:** 26
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -122,6 +122,7 @@ pip install -r requirements.txt
 ## 📁 Backtracking
 
 - 🟡 🔗 [Combination Sum](https://leetcode.com/problems/combination-sum/) — Backtracking (Combination / Reuse Allowed)
+- 🟡 🔗 [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) — Backtracking / DFS
 - 🟡 🔗 [Permutations](https://leetcode.com/problems/permutations/) — Backtracking (Used Array)
 - 🟡 🔗 [Subsets](https://leetcode.com/problems/subsets/) — Backtracking (Start Index)
 - 🟡 🔗 [Word Search](https://leetcode.com/problems/word-search/) — DFS / Backtracking / Grid Traversal
