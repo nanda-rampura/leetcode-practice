@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 49
+- **Total Problems:** 50
 - **Easy:** 22
-- **Medium:** 27
+- **Medium:** 28
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -117,6 +117,7 @@ pip install -r requirements.txt
 
 ## 📁 Stacks
 
+- 🟡 🔗 [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) — Monotonic Stack / Next Greater Element
 - 🟡 🔗 [Min Stack](https://leetcode.com/problems/min-stack/) — Stack / Design
 
 ## 📁 Backtracking
