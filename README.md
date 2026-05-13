@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 51
+- **Total Problems:** 52
 - **Easy:** 22
-- **Medium:** 29
+- **Medium:** 30
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -86,6 +86,7 @@ pip install -r requirements.txt
 - 🟢 Maximum Depth of Binary Tree — DFS Iterative (Stack)
 - 🟡 🔗 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — BFS / Level Order Traversal
 - 🟡 🔗 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Tree / BFS (Level Order)
+- 🟡 🔗 [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) — Iterative Inorder Traversal / Stack
 - 🟡 🔗 [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) — BST / Tree Traversal
 - 🟡 🔗 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) — BST / DFS (Range Validation)
 
