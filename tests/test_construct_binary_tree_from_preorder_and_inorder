@@ -1,0 +1,42 @@
+import pytest
+from trees.construct_binary_tree_from_preorder_and_inorder import Solution
+
+
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+
+def serialize(root):
+    """Helper: preorder serialization with None markers"""
+    if not root:
+        return None
+    return (root.val, serialize(root.left), serialize(root.right))
+
+
+@pytest.mark.parametrize(
+    "preorder, inorder, expected",
+    [
+        (
+            [3, 9, 20, 15, 7],
+            [9, 3, 15, 20, 7],
+            (3, (9, None, None), (20, (15, None, None), (7, None, None))),
+        ),
+        (
+            [1],
+            [1],
+            (1, None, None),
+        ),
+        (
+            [2, 1],
+            [1, 2],
+            (2, (1, None, None), None),
+        ),
+    ],
+)
+def test_build_tree(preorder, inorder, expected):
+    sol = Solution()
+    root = sol.buildTree(preorder, inorder)
+    assert serialize(root) == expected

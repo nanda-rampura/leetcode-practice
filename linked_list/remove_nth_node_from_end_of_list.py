@@ -9,6 +9,15 @@ from linked_list.middle_of_linked_list import ListNode
 
 
 class Solution:
+    """
+Problem: Remove Nth Node From End of List
+Difficulty: Medium
+LeetCode: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+Pattern: Linked List / Two Pointers (Fast & Slow) / Dummy Node Technique
+Topics: Linked List, Two Pointers
+Time Complexity: O(n)
+Space Complexity: O(1)
+"""
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         p0 = ListNode(0)
         p0.next = head

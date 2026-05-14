@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 52
+- **Total Problems:** 54
 - **Easy:** 22
-- **Medium:** 30
+- **Medium:** 32
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -86,6 +86,7 @@ pip install -r requirements.txt
 - 🟢 Maximum Depth of Binary Tree — DFS Iterative (Stack)
 - 🟡 🔗 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — BFS / Level Order Traversal
 - 🟡 🔗 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Tree / BFS (Level Order)
+- 🟡 🔗 [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) — Binary Tree / Recursion / Divide and Conquer
 - 🟡 🔗 [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) — Iterative Inorder Traversal / Stack
 - 🟡 🔗 [Lowest Common Ancestor of a BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) — BST / Tree Traversal
 - 🟡 🔗 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) — BST / DFS (Range Validation)
@@ -105,6 +106,7 @@ pip install -r requirements.txt
 - 🟢 🔗 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) — Linked List / Two Pointers
 - 🟢 🔗 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) — Fast and Slow Pointers
 - 🟢 🔗 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Linked List / In-place Reversal
+- 🟡 🔗 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) — Linked List / Two Pointers (Fast & Slow) / Dummy Node Technique
 
 ## 🔍 Binary Search
 
