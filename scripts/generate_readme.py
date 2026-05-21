@@ -16,7 +16,8 @@ FOLDERS = [
     "queues",
     "stacks",
     "backtracking",
-    "sliding_window"
+    "sliding_window",
+    "trie"
 ]
 
 OUTPUT_FILE = "README.md"
