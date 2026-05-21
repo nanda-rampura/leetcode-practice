@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 55
+- **Total Problems:** 56
 - **Easy:** 23
-- **Medium:** 32
+- **Medium:** 33
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -75,6 +75,7 @@ pip install -r requirements.txt
 
 - 🟢 🔗 [Ransom Note](https://leetcode.com/problems/ransom-note/) — HashMap / Frequency Count
 - 🟢 🔗 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Stack
+- 🟡 🔗 [Group Anagrams](https://leetcode.com/problems/group-anagrams/) — Hash Map / Frequency Counting
 - 🟡 🔗 [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) — Trie / Prefix Tree / String Data Structure
 - 🟡 🔗 [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) — Sliding Window / HashMap
 
