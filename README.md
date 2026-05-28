@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 57
+- **Total Problems:** 58
 - **Easy:** 23
-- **Medium:** 34
+- **Medium:** 35
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -108,6 +108,7 @@ pip install -r requirements.txt
 - 🟢 🔗 [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) — Linked List / Two Pointers
 - 🟢 🔗 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) — Fast and Slow Pointers
 - 🟢 🔗 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Linked List / In-place Reversal
+- 🟡 🔗 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) — Linked List / Pointer Rewiring
 - 🟡 🔗 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) — Linked List / Two Pointers (Fast & Slow) / Dummy Node Technique
 
 ## 🔍 Binary Search
