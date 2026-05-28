@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 59
+- **Total Problems:** 60
 - **Easy:** 24
-- **Medium:** 35
+- **Medium:** 36
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -68,6 +68,7 @@ pip install -r requirements.txt
 - 🟡 🔗 [Insert Interval](https://leetcode.com/problems/insert-interval/) — Intervals / Merge Intervals
 - 🟡 🔗 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Heap / Priority Queue (Top K Elements)
 - 🟡 🔗 [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Sorting + Greedy / Interval Merging
+- 🟡 🔗 [Next Permutation](https://leetcode.com/problems/next-permutation/) — Array / Two Pointers
 - 🟡 🔗 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) — Prefix Sum / Suffix Product
 - 🟡 🔗 [Sort Colors](https://leetcode.com/problems/sort-colors/) — Two Pointers / Dutch National Flag (3-way Partition)
 
