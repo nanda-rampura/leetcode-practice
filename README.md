@@ -37,8 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 58
-- **Easy:** 23
+- **Total Problems:** 59
+- **Easy:** 24
 - **Medium:** 35
 - **Hard:** 0
 
@@ -73,6 +73,7 @@ pip install -r requirements.txt
 
 ## 🧵 Strings
 
+- 🟢 🔗 [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) — Two Pointers / Reverse Traversal
 - 🟢 🔗 [Ransom Note](https://leetcode.com/problems/ransom-note/) — HashMap / Frequency Count
 - 🟢 🔗 [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) — Stack
 - 🟡 🔗 [Group Anagrams](https://leetcode.com/problems/group-anagrams/) — Hash Map / Frequency Counting
