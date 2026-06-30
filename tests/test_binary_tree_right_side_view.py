@@ -1,5 +1,4 @@
 # tests/test_binary_tree_right_side_view.py
-
 from trees.binary_tree_right_side_view import BinaryTreeRightSideView, TreeNode
 
 

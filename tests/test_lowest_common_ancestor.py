@@ -36,8 +36,8 @@ class TestLowestCommonAncestor:
         sol = LowestCommonAncestor()
         root = self.setup_tree()
 
-        p = root.left          # 5
-        q = root.left.right    # 2
+        p = root.left
+        q = root.left.right
 
         assert sol.lowestCommonAncestor(root, p, q).val == 5
 
@@ -45,8 +45,8 @@ class TestLowestCommonAncestor:
         sol = LowestCommonAncestor()
         root = self.setup_tree()
 
-        p = root.left          # 5
-        q = root.right         # 1
+        p = root.left
+        q = root.right
 
         assert sol.lowestCommonAncestor(root, p, q).val == 3
 
@@ -54,7 +54,7 @@ class TestLowestCommonAncestor:
         sol = LowestCommonAncestor()
         root = self.setup_tree()
 
-        p = root.left.right.left   # 7
-        q = root.left.right.right  # 4
+        p = root.left.right.left
+        q = root.left.right.right
 
         assert sol.lowestCommonAncestor(root, p, q).val == 2
