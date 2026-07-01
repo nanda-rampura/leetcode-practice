@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 67
-- **Easy:** 30
-- **Medium:** 37
+- **Total Problems:** 72
+- **Easy:** 34
+- **Medium:** 38
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -151,6 +151,20 @@ pip install -r requirements.txt
 ## 📁 Trie
 
 - 🟡 🔗 [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) — Trie + DFS Backtracking
+
+## 📁 Prefixsum
+
+- 🟡 🔗 [Contiguous Array](https://leetcode.com/problems/contiguous-array/) — Prefix Sum + Hash Map
+
+## 📁 Bit Manipulation
+
+- 🟢 🔗 [Missing Number](https://leetcode.com/problems/missing-number/) — Bit Manipulation / XOR / Math
+- 🟢 🔗 [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/) — Bit Manipulation
+- 🟢 🔗 [Single Number](https://leetcode.com/problems/single-number/) — Bit Manipulation (XOR)
+
+## 📁 Topic Math
+
+- 🟢 🔗 [Palindrome Number](https://leetcode.com/problems/palindrome-number/) — Math / Reverse Number
 
 
 

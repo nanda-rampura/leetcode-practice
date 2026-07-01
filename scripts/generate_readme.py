@@ -17,7 +17,10 @@ FOLDERS = [
     "stacks",
     "backtracking",
     "sliding_window",
-    "trie"
+    "trie",
+    "prefixsum",
+    "bit_manipulation",
+    "topic_math"
 ]
 
 OUTPUT_FILE = "README.md"
