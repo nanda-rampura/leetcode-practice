@@ -37,8 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 63
-- **Easy:** 27
+- **Total Problems:** 64
+- **Easy:** 28
 - **Medium:** 36
 - **Hard:** 0
 
@@ -86,6 +86,7 @@ pip install -r requirements.txt
 ## 🌳 Trees
 
 - 🟢 🔗 [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) — Tree / DFS (Postorder)
+- 🟢 🔗 [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) — Divide & Conquer / Recursion / Tree Construction
 - 🟢 🔗 [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) — Tree DFS / Postorder Traversal
 - 🟢 🔗 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) — Tree / DFS (Recursive)
 - 🟢 🔗 [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) — DFS / BFS / Tree Traversal
