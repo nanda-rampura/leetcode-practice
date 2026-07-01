@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 65
+- **Total Problems:** 66
 - **Easy:** 29
-- **Medium:** 36
+- **Medium:** 37
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -115,6 +115,7 @@ pip install -r requirements.txt
 - 🟢 🔗 [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) — Fast and Slow Pointers
 - 🟢 🔗 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) — Linked List / Fast & Slow Pointer + In-place Reversal
 - 🟢 🔗 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) — Linked List / In-place Reversal
+- 🟡 🔗 [LRU Cache](https://leetcode.com/problems/lru-cache/) — Design / Hash Map + Doubly Linked List
 - 🟡 🔗 [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) — Linked List / Pointer Rewiring
 - 🟡 🔗 [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) — Linked List / Two Pointers (Fast & Slow) / Dummy Node Technique
 
