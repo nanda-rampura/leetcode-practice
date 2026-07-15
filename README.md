@@ -37,9 +37,9 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 76
+- **Total Problems:** 77
 - **Easy:** 37
-- **Medium:** 39
+- **Medium:** 40
 - **Hard:** 0
 
 ## 🔥 Top Patterns
@@ -68,6 +68,7 @@ pip install -r requirements.txt
 - 🟡 🔗 [3Sum](https://leetcode.com/problems/3sum/) — Two Pointers / Sorting
 - 🟡 🔗 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) — Two Pointers / Greedy
 - 🟡 🔗 [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) — Stack / Expression Evaluation
+- 🟡 🔗 [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) — Fast & Slow Pointers (Floyd's Cycle Detection)
 - 🟡 🔗 [Insert Interval](https://leetcode.com/problems/insert-interval/) — Intervals / Merge Intervals
 - 🟡 🔗 [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) — Heap / Priority Queue (Top K Elements)
 - 🟡 🔗 [Merge Intervals](https://leetcode.com/problems/merge-intervals/) — Sorting + Greedy / Interval Merging
