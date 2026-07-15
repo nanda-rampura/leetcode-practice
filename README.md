@@ -37,8 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 74
-- **Easy:** 35
+- **Total Problems:** 75
+- **Easy:** 36
 - **Medium:** 39
 - **Hard:** 0
 
@@ -93,6 +93,7 @@ pip install -r requirements.txt
 - 🟢 Maximum Depth of Binary Tree — DFS Iterative (Stack)
 - 🟢 🔗 [Path Sum](https://leetcode.com/problems/path-sum/) — DFS / Tree Traversal
 - 🟢 🔗 [Same Tree](https://leetcode.com/problems/same-tree/) — Binary Tree / DFS / Recursion
+- 🟢 🔗 [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/) — DFS / Tree Comparison
 - 🟢 🔗 [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) — Binary Tree / DFS / Recursion
 - 🟡 🔗 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) — BFS / Level Order Traversal
 - 🟡 🔗 [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) — Tree / BFS (Level Order)
