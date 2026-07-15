@@ -37,8 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Summary
 
-- **Total Problems:** 75
-- **Easy:** 36
+- **Total Problems:** 76
+- **Easy:** 37
 - **Medium:** 39
 - **Hard:** 0
 
@@ -61,6 +61,7 @@ pip install -r requirements.txt
 - 🟢 🔗 [Majority Element](https://leetcode.com/problems/majority-element/) — Boyer-Moore Voting Algorithm / Greedy
 - 🟢 🔗 [Meeting Rooms (Can Attend Meetings)](https://leetcode.com/problems/meeting-rooms/) — Intervals / Sorting / Greedy
 - 🟢 🔗 [Move Zeroes](https://leetcode.com/problems/move-zeroes/) — Two Pointers / In-place Array Manipulation
+- 🟢 🔗 [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) — Two Pointers
 - 🟢 🔗 [Two Sum](https://leetcode.com/problems/two-sum/) — HashMap / One Pass
 - 🟢 🔗 [Valid Anagram](https://leetcode.com/problems/valid-anagram/) — HashMap / Frequency Count
 - 🟢 🔗 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) — Two Pointers / String Traversal
